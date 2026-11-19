@@ -1,0 +1,15 @@
+body {
+  margin: 0; min-height: 100vh; background: #05050f; color: #fff;
+  font-family: "Courier New", monospace;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+}
+h1 { margin: 8px 0 4px; font-size: 22px; letter-spacing: 4px; color: #39ff14; }
+canvas { background: #000; border: 2px solid #39ff14; max-width: 100%; height: auto; touch-action: none; }
+.info { font-size: 12px; color: #9aa; margin: 6px 0; text-align: center; }
+.controls { display: flex; gap: 10px; margin: 8px 0 12px; }
+.controls button {
+  width: 90px; height: 48px; font-size: 18px; font-family: inherit;
+  background: #111; color: #39ff14; border: 2px solid #39ff14; border-radius: 8px;
+  user-select: none; -webkit-user-select: none; touch-action: none;
+}
+.controls button:active { background: #39ff14; color: #000; }
